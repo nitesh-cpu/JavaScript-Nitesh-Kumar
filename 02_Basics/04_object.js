@@ -96,3 +96,5 @@ const courseInfo = {
   {},
   {}
 ]
+
+// object is the most important part in javascript if you want to learn java script it will be good
