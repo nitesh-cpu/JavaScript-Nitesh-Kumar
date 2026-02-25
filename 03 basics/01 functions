@@ -1,0 +1,40 @@
+
+function sayMyname(){
+  console.log("N");
+  console.log("I");
+  console.log("T");
+  console.log("E");
+  console.log("S");
+  console.log("H");
+}
+
+// sayMyname()
+
+// function addTwoNumbers(number1,number2){
+
+//    console.log(number1+number2)
+
+// }
+// addTwoNumbers(3,7)
+
+function addtwoNumbers(num1,num2){
+    //  let result = num1 + num2
+    
+    //  return result
+    return num1+num2
+}
+const result=addtwoNumbers(2,6)
+
+// console.log("result",result)
+
+function loginUserMessage(username){
+ if (!username){
+  console.log("Please enter a username")
+  return 
+ }
+  return `${username} just logged in`
+
+}
+// console.log(loginUserMessage("Nitesh"))
+
+console.log(loginUserMessage())
